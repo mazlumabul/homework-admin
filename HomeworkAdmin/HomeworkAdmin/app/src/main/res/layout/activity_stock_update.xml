@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Stock.StockUpdate">
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:backgroundTintMode="multiply"
+
+        android:textAlignment="center"
+
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/spinner"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="20dp"
+
+        ></androidx.appcompat.widget.AppCompatSpinner>
+
+    <EditText
+        android:layout_below="@id/spinner"
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:inputType="text"
+        android:hint="Ürün Adını Gir"
+        android:textAlignment="center"
+        ></EditText>
+<Button
+    android:onClick="addName"
+    android:layout_below="@+id/name"
+    android:id="@+id/addName"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/btn_back"
+    android:textColor="@color/white"
+    android:text="Ürün Adını Gir"
+    android:textAllCaps="false"
+    android:fontFamily="@font/nunito_sans_semibold"
+    ></Button>
+
+    <EditText
+        android:id="@+id/size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:inputType="text"
+        android:hint="Ürün Beden Gir"
+        android:layout_below="@id/addName"
+        android:textAlignment="center"
+        ></EditText>
+    <Button
+        android:onClick="addSize"
+        android:layout_below="@+id/size"
+        android:id="@+id/addSize"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_back"
+        android:textColor="@color/white"
+        android:text="Beden Gir"
+        android:textAllCaps="false"
+        android:fontFamily="@font/nunito_sans_semibold"
+        ></Button>
+
+    <EditText
+        android:id="@+id/value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:inputType="number"
+        android:hint="Fiyat Gir"
+        android:layout_below="@id/addSize"
+        android:textAlignment="center"
+        ></EditText>
+    <Button
+        android:onClick="addValue"
+        android:layout_below="@+id/value"
+        android:id="@+id/addValue"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_back"
+        android:textColor="@color/white"
+        android:text="Fiyat Gir"
+        android:textAllCaps="false"
+        android:fontFamily="@font/nunito_sans_semibold"
+        ></Button>
+
+
+    <Button
+        android:onClick="addImage"
+        android:layout_below="@id/addValue"
+        android:id="@+id/addImages"
+        android:layout_width="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_back"
+        android:textColor="@color/white"
+        android:text="Resim Ekle"
+        android:textAllCaps="false"
+        android:fontFamily="@font/nunito_sans_semibold"
+        ></Button>
+</RelativeLayout>

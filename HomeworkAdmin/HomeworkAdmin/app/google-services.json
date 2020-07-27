@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "406269150616",
+    "firebase_url": "https://e-commerce-b655b.firebaseio.com",
+    "project_id": "e-commerce-b655b",
+    "storage_bucket": "e-commerce-b655b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406269150616:android:4d72ca1c220be0426dd7ed",
+        "android_client_info": {
+          "package_name": "com.homework"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "406269150616-j8t5u592ckta8pro09bkso30rpvgulhe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.homework",
+            "certificate_hash": "4d344025f308304689e16fd156fc390d86016cfa"
+          }
+        },
+        {
+          "client_id": "406269150616-96de98cam3mfou3c05gtak12livgmspf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVMcycd5E5nXMW-iygHT9yDYPP826Xgas"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "406269150616-96de98cam3mfou3c05gtak12livgmspf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "406269150616-uhpd9q316je9sh6hbk5qpcjj3gn8mqkt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.homework"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

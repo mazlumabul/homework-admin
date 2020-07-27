@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Homework Admin</string>
+
+
+        <string-array name="man">
+            <item>Ürün Şeciniz</item>
+            <item>Ayakkabı</item>
+            <item>Pantolon</item>
+            <item>Ceketler</item>
+            <item>T-Shirtler</item>
+            <item>Eşofmanlar</item>
+            <item>Şortlar</item>
+            <item>Formalar</item>
+        </string-array>
+    <string-array name="woman">
+        <item>Ürün Şeciniz</item>
+        <item>Ayakkabı</item>
+        <item>Pantolon</item>
+        <item>Ceketler</item>
+        <item>T-Shirtler</item>
+        <item>Eşofmanlar</item>
+        <item>Şortlar</item>
+        <item>Formalar</item>
+    </string-array>
+    <string-array name="kid">
+        <item>Ürün Şeciniz</item>
+        <item>Ayakkabı</item>
+        <item>Pantolon</item>
+        <item>Ceketler</item>
+        <item>T-Shirtler</item>
+        <item>Eşofmanlar</item>
+        <item>Şortlar</item>
+        <item>Formalar</item>
+</string-array>
+
+</resources>

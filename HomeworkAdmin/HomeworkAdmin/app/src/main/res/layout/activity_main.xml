@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_margin="20dp"
+    >
+
+    <Button
+        android:onClick="man"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_back"
+        android:fontFamily="@font/nunito_sans_semibold"
+        android:text="Erkek"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20dp">
+
+    </Button>
+    <Button
+        android:onClick="woman"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:fontFamily="@font/nunito_sans_semibold"
+        android:text="Kadın"
+        android:layout_margin="10dp"
+        android:layout_width="300dp"
+        android:background="@drawable/btn_back"
+        android:layout_height="wrap_content">
+
+    </Button>
+    <Button
+        android:onClick="kid"
+        android:fontFamily="@font/nunito_sans_semibold"
+        android:text="Çocuk"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        android:layout_width="300dp"
+        android:background="@drawable/btn_back"
+        android:layout_height="wrap_content">
+
+    </Button>
+</LinearLayout>
+
+</RelativeLayout>
